@@ -36,10 +36,14 @@ ul
 	font-size: 20px;
 }
 
-li:hover
+li:hover 
 {
-	color: blue;
+	margin-top: 3px;
+}
 
+ul:hover
+{
+	color: black;
 }
 
 #body img
@@ -53,7 +57,7 @@ li:hover
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 700px;
-	margin: 0;
+	padding-top: 50px;
 }
 
 #center h1
