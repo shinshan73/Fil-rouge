@@ -1,0 +1,252 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+nav
+{
+	height: 80px;
+	width: 100%;
+	background-color: #101823;
+	position: fixed;
+}
+
+li, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul
+{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	padding: 0px;
+}
+
+#body li
+{
+	color: white;
+	font-family: verdana;
+	padding-top: 30px;
+	font-size: 20px;
+}
+
+li:hover
+{
+	color: blue;
+
+}
+
+#body img
+{
+	height: 80px;
+}
+
+#center 
+{
+	background-image: url("img/wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	margin: 0;
+}
+
+#center h1
+{
+	color: white;
+	display: flex;
+	padding-top: 100px;
+	justify-content: center;
+	font-family: verdana;
+	font-size: 70px;
+}
+
+#center div
+{
+	width: 250px;
+	height: 50px;
+	background-color: red;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.box p
+{
+	font-family: verdana;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+#center div:hover
+{
+	background-color: #101823;
+}
+
+.box p:hover
+{
+	color: red;
+}
+
+#botcenter
+{
+	width: 80%;
+	height: 450px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+#botcenter h2
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	font-family: verdana;
+
+}
+
+#botcenter h3
+{
+	display: flex;
+	justify-content: center;
+	font-family: verdana;
+	padding-top: 30px;
+	color: red;
+}
+
+#botcenter p
+{
+	display: flex;
+	justify-content: center;
+	font-family: verdana;
+	padding-top: 30px;
+}
+
+
+.teamName
+{
+	display: flex;
+	height: 100px;
+	width: 100%;
+	justify-content: space-around;
+	padding-top: 30px;
+}
+
+.teamName li
+{
+	color: black;
+	font-family: verdana;
+	display: flex;
+}
+
+.teamLogo
+{
+	display: flex;
+	height: 200px;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.teamLogo img
+{
+	transition: 0.5s;
+
+}
+
+.teamLogo img:hover
+{
+	margin-top: 10px;
+}
+
+#vote
+{
+	margin-top: 50px;
+	padding: 50px;
+	height: 500px;
+}
+
+#vote h4
+{
+	padding-top: 50px;
+	font-family: verdana;
+	display: flex;
+	justify-content: center;
+	color: red;
+}
+
+#vote p
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	font-family: verdana;
+}
+
+.voteimg
+{
+	margin: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#vote img
+{
+	height: 200px;
+}
+
+
+#vote img
+{
+	transition: 0.5s;
+}
+
+#vote img:hover
+{
+	margin-top: 20px;
+}
+
+
+
+
+#regle h1
+{
+	color: red;
+	font-family: verdana;
+	display: flex;
+	justify-content: center;
+
+}
+
+#regle p 
+{
+	font-family: verdana;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.question li
+{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+ }
+
+ h1
+ {
+ 	text-align: center;
+ 	padding: 100px;
+ 	font-size: 25px;
+ }
+
+ h2
+ {
+ 	padding: 50px;
+ }

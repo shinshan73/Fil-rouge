@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>AAAAAA</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body id="body">
+	<nav>
+		<ul>
+			<img src="img/logo.png">
+			<a href="#center"> <li>Accueil</li> </a>
+			<a href="#botcenter"> <li>Les Equipes</li> </a>
+			<a href="#title"> <li>Le QCM</li> </a>
+			<a href="regles.html" target="_blank"> <li>Les Points</li> </a>
+		</ul>
+	</nav>
+
+	<div id="center">
+		<h1>VALORANT</h1>
+		<div class="box">
+		<a href="#vote"><p>VOTER MAINTENANT</p> </a>
+		</div>
+	</div>
+
+	<div id="botcenter">
+		<h2>LES EQUIPES </h2>
+		<h3>Europe</h3>
+		<p>cliquer une équipe pour plus d'information!</p>
+		<div class="teamName">
+		<li>G2 Esports</li>
+		<li>FunPlus PhoeniX</li>
+		<li>Bonk</li>
+		<li>Team Liquid</li>
+		</div>
+		<div class="teamLogo">
+		<a href="https://www.vlr.gg/team/257/g2-esports" target="_blank"> <img src="img/G2.png"> </a>
+		<a href="https://www.vlr.gg/team/628/funplus-phoenix" target="_blank"> <img src="img/FPX.png"> </a>
+		<a href="https://www.vlr.gg/team/377/bonk" target="_blank"> <img src="img/bonk.png"> </a>
+		<a href="https://www.vlr.gg/team/474/team-liquid" target="_blank"> <img src="img/liquid.png"> </a>
+		</div>
+	</div>
+
+	<div id="vote">
+		<h4>VOTER POUR VOTRE EQUIPE </h4>
+		<p>cliquer pour voter !</p>
+		<div class="voteimg">
+			<img src="img/G2.png">
+			<img src="img/FPX.png">
+			<img src="img/bonk.png">
+			<img src="img/liquid.png">
+		</div>
+	</div>
+
+        <h1 id = "title"></h1>
+
+        <h2 id = "question"></h2>
+
+        <ul id = "reponse" class ="question">
+            <li id ="reponseA">
+                <input type="radio" value ="0" onclick="testAnswer(value)">
+                <label for="r1">
+                    <span id ="r1"></span>
+                </label>
+            </li>
+            <li id ="reponseB">
+                <input type="radio" value ="1" onclick="testAnswer(value)">
+                <label for="r2">
+                    <span id ="r2"></span>
+                </label>
+            </li>
+            <li id ="reponseC">
+                <input type="radio" value ="2"onclick ="testAnswer(value)">
+                <label for="r3">
+                    <span id ="r3"></span>
+                </label>
+            </li>
+                        <li id ="reponseD">
+                <input type="radio" value ="3"onclick ="testAnswer(value)">
+                <label for="r4">
+                    <span id ="r4"></span>
+        </ul>
+
+        <script src="main.js"></script>
+</body>
+</html>
