@@ -4,7 +4,7 @@ const qcm = {
                 title: "Une réponse a chaque question !",
                 question: [
                     { 
-                    questionTitre: "Question 1, Scrim est dans quelle équipe ?",
+                    questionTitre: "Question 1, Scream est dans quelle équipe ?",
                     reponse: [
                         {
                             choix: "A  FPX",

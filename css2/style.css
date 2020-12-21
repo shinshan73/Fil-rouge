@@ -36,7 +36,7 @@ ul
 	font-size: 20px;
 }
 
-li:hover 
+.header li:hover 
 {
 	margin-top: 3px;
 }
@@ -53,7 +53,7 @@ ul:hover
 
 #center 
 {
-	background-image: url("img/wallpaper.jpg");
+	background-image: url("../img/background.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 700px;
@@ -97,11 +97,15 @@ ul:hover
 	color: red;
 }
 
+.equipes
+{
+	background-color: white ;
+}
+
 #botcenter
 {
 	width: 80%;
 	height: 450px;
-	border: 1px solid red;
 	margin: 0 auto;
 }
 
@@ -131,15 +135,23 @@ ul:hover
 	padding-top: 30px;
 }
 
-
-.teamName
+.g2
 {
-	display: flex;
-	height: 100px;
-	width: 100%;
-	justify-content: space-around;
-	padding-top: 30px;
+	color: black;
+	font-size: 30px;
+	margin-bottom: 50px;
+	margin-left: 60px;
 }
+
+.FPX
+{
+	color: black;
+	font-size: 30px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+	margin-top: 100px;
+}
+
 
 .teamName li
 {
@@ -151,45 +163,47 @@ ul:hover
 .teamLogo
 {
 	display: flex;
-	height: 200px;
-	width: 100%;
 	justify-content: space-around;
 }
 
-.teamLogo img
+.logoFpx
 {
-	transition: 0.5s;
-
+	height: 300px;
+	margin-left: -330px;
+	margin-top: 150px;
 }
 
-.teamLogo img:hover
+.teambonk
 {
-	margin-top: 10px;
+	height: 150px;
+	margin-top: 150px;
 }
 
-#vote
+.logoBonk
 {
+	height: 200px;
+	margin-left: -250px;
+	margin-top: 150px;
+}
+
+.teamG2
+{
+	height: 200px;
 	margin-top: 50px;
-	padding: 50px;
-	height: 500px;
 }
 
-#vote h4
+.teamfpx
 {
-	padding-top: 50px;
-	font-family: verdana;
-	display: flex;
-	justify-content: center;
-	color: red;
+	height: 200px;
+	margin-top: 200px;
 }
 
-#vote p
+.teamL
 {
-	display: flex;
-	justify-content: center;
-	padding-top: 20px;
-	font-family: verdana;
+	height: 200px;
+	margin-top: 200px;
 }
+
 
 .voteimg
 {
@@ -252,5 +266,23 @@ ul:hover
 
  h2
  {
- 	padding: 50px;
+	 padding: 50px;
+	 font-size: 60px;
  }
+
+ h3
+ {
+	 padding-bottom: 100px;
+	 font-size: 50px;
+ }
+
+ h4, h5 {
+	 font-size: 30px;
+ }
+
+ h4
+{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}

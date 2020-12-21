@@ -1,0 +1,14 @@
+header{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav{
+    width: 100%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+}

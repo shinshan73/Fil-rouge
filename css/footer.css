@@ -1,0 +1,15 @@
+footer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
